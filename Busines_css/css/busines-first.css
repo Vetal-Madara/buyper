@@ -1,0 +1,34 @@
+.section-businesPage{
+    background: url('/Busines_css/img/Rectangle\ 12.png') no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 24%;
+}
+.header-left a{
+    color: #fff;
+}
+.subtitle-busines{
+    margin-top: 24px;
+    font-size: 22px;
+    color: #fff;
+}
+h1{
+    color: #fff;
+    font-size: 55px;
+    margin-top: 6%;
+}
+.btn-get-wrap{
+    display: flex;
+    justify-content: center;
+}
+.btn-get{
+    width: 260px;
+    margin-top: 5%;
+    text-align: center;
+    white-space: nowrap;
+}
+li{
+    list-style-type: none;
+}
+.white{
+    color: white;
+}

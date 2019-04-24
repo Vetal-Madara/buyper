@@ -1,0 +1,91 @@
+.section-second{
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 3%;
+    color: white;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #3dbfa1, #00abac, #0096b1, #007ead, #1c669e);
+}
+#subtitle-customers{ 
+    font-size: 55px;
+    line-height: normal;
+    margin-right: 14%;
+    margin-left: 14%;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.text-customers-wrap{
+    width: 48%;
+    margin: 0 1%;
+    min-height: 20px;
+    
+    display: inline-block;
+    float: left;
+}
+.text-customers span{
+    font-size: 1.3rem;
+}
+.text-customers{
+    width: 100%;
+}
+.img-customers{
+    width: 100%;
+    margin-bottom: 6%;
+}
+.text-customers h3{
+    margin-left: 5%;
+    font-size: 24px;
+}
+.text {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.text-customers img{
+ 
+    width: 70px;
+    height: 70px;
+}
+.img-customers-wrap{
+    width: 48%;
+    margin: 0 1%;
+    min-height: 20px;
+    display: inline-block;
+    float: left;
+    margin-top: 6%;
+    
+}
+@media screen and (max-width: 756px){
+    .text-customers-wrap, .img-customers-wrap{
+        width: 98%;
+    }
+    .workWithUs-advantages{
+        width: 46%;
+    }
+    .work-advantures{
+        width: 30%;
+    }
+
+
+}
+@media screen and (min-width: 756px){
+    .clear-fix{
+        clear: none;
+        display: none;
+    }
+
+
+}
+@media screen and (max-width: 560px){
+    .workWithUs-advantages{
+        width: 96%;
+    }
+    .work-advantures{
+        width: 100%;
+    }
+
+
+}

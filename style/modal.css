@@ -1,0 +1,93 @@
+.modals{
+    margin: -55px auto;
+    max-width: 719px;
+    min-height: 300px;
+    background: #fff;
+    z-index: 2000;
+    border-radius: 6px;
+    padding: 30px 30px 45px 30px;
+    box-shadow: 2px 2px 50px black;
+}
+.login-wrapper span{
+    line-height: 2.2;
+    color: #0B8793;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: right;
+    margin-right: auto;
+}
+#bottom{
+    margin-bottom: 0;
+}
+.login-wrapper input::placeholder, 
+.email-wrapper input::placeholder,
+.restore-wrapper input::placeholder{
+    text-align: left;
+}
+.restore-wrapper .modal-input{
+   
+}
+.modal-shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.486);
+    z-index: 1000;
+}
+.modals .modal-input{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+}
+.modal-input input{
+    margin-bottom: 9%;
+}
+b{
+    color: #505050;
+    word-wrap: break-word;
+}
+.login-wrapper h3, 
+.email-wrapper h3,
+.successfull-wrapper h3,
+.restore-wrapper h3{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    letter-spacing: 0.5px;
+    margin: 7% 0;
+    color: #505050;
+    word-wrap: break-word;
+}
+.modals p{
+    margin: 9% 0;
+    font-size: 15px;
+}
+.modals p a{
+    color: #FF596D;
+    
+}
+.exit-modal {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    cursor: pointer;
+}
+.btn-modal{
+    display: flex;
+    justify-content: center;
+}
+.smile-success{
+    width: 183px;
+    height: 183px;
+}
+.smile-success-wrap{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: space-between;
+}

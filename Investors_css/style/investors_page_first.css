@@ -1,0 +1,35 @@
+.subtitle-investor{
+    margin-top: 24px;
+    font-size: 22px;
+}
+.section-investor-first h1{
+    margin-top: 6%;
+    letter-spacing: 0.5px;
+}
+.subtitle-investor p{
+    color: #505050;
+    font-size: 1.5rem;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.investor-us{
+    background: #F8F8F8;
+    border-radius: 5px;
+    padding: 2% 6%;
+}
+.info-us-wrapper h4{
+    color: #0B8793;
+    margin: 9% 0 2% 0;
+}
+.info-us-wrapper p{
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.info-us-wrapper a{
+    color:  #FF596D;
+}   
+ul li{
+    list-style-type: none;
+}

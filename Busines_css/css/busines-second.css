@@ -1,0 +1,35 @@
+.busines-work h1, .busines-work p{
+    color: #505050;
+}
+.work-advantures-wrap{
+    width: 100%;
+}
+.work-advantures{
+    
+    width: 30.33333333333333%;
+    margin: 0 1.5%;
+    min-height: 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.1rem;
+    text-align: center;
+
+}
+.work-advantures img{
+    
+    width:110px;
+    height: 75px;
+    margin: 15% 0;
+}
+#home-icon{
+    width:80px;
+    height: 75px;
+}
+.work-line{
+    width: 100%;
+    height: auto;
+}
+.busines-workWithUs p{
+    margin-top: 27px;
+}
